@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "言动方程品牌 Logo",
+    "description": "把 DSH 侧边栏左上角的品牌替换为言动方程（ACTION FORMULA）Logo：隐藏官方 DeepSeek Harness 品牌与本地构建字样，其余界面保持不变。关闭插件即可恢复原品牌。"
+  }
+}

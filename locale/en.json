@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Action Formula brand logo",
+    "description": "Replaces the sidebar brand lockup with the Action Formula (言动方程) logo. The official DeepSeek Harness brand and the local-build label are hidden; the rest of the interface is unchanged. Turn the plugin off to restore the original brand."
+  }
+}

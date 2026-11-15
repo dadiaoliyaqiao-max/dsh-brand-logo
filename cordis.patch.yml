@@ -1,0 +1,9 @@
+# DeepSeek Harness sidebar brand replacement.
+# This bundle's own layer disables the official brand row and registers the
+# Action Formula logo slots, so turning the bundle off restores the original
+# "deepseek HARNESS" brand untouched.
+- id: ui-brand-official
+  disabled: true
+- insert:
+    - id: brand-dsh-brand-logo
+      name: dsh-brand-logo

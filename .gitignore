@@ -1,0 +1,4 @@
+node_modules/
+*.tgz
+chrome-profile/
+.DS_Store

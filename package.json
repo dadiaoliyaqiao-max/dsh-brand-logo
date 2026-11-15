@@ -1,0 +1,55 @@
+{
+  "name": "dsh-brand-logo",
+  "version": "1.0.0",
+  "description": "Replace the DeepSeek Harness sidebar brand with the Action Formula (言动方程) logo; the rest of the interface stays unchanged.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Action Formula (言动方程)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadiaoliyaqiao-max/dsh-brand-logo.git"
+  },
+  "homepage": "https://github.com/dadiaoliyaqiao-max/dsh-brand-logo#readme",
+  "bugs": {
+    "url": "https://github.com/dadiaoliyaqiao-max/dsh-brand-logo/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "brand",
+    "logo",
+    "action-formula",
+    "言动方程"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.png",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.png",
+    "assets/screenshot-sidebar.png",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}
